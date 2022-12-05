@@ -1,5 +1,7 @@
 /** @format */
 
+import { useEffect } from 'react'
+
 import styled from 'styled-components'
 
 import {
@@ -15,6 +17,10 @@ import {
 } from '../../components'
 
 export default function Home(props) {
+	useEffect(() => {
+		document.title = 'Home | bluepoint2'
+	}, [])
+
 	return (
 		<HomeContainer>
 			<SectionContainer>

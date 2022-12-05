@@ -1,5 +1,7 @@
 /** @format */
 
+import { useEffect } from 'react'
+
 import {
 	SectionContainer,
 	SectionContentContainer,
@@ -12,6 +14,10 @@ import {
 import { Map } from './index'
 
 export default function ContactUs() {
+	useEffect(() => {
+		document.title = 'Contact Us | bluepoint2'
+	}, [])
+
 	return (
 		<>
 			<SectionContainer height='370px' bgColor='rgba(28, 161, 126, 0.75)'>
