@@ -1,0 +1,28 @@
+/** @format */
+
+@font-face {
+	font-family: 'Worksans';
+	src: url('./WorkSans-Light.ttf');
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: 'Worksans-extralight';
+	src: url('./WorkSans-ExtraLight.ttf');
+}
+
+@font-face {
+	font-family: 'Worksans-regular';
+	src: url('./WorkSans-Regular.ttf');
+}
+
+@font-face {
+	font-family: 'Worksans';
+	src: url('./WorkSans-Bold.ttf');
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: 'Haviland';
+	src: url('./MrDeHaviland-Regular.ttf');
+}
